@@ -82,4 +82,8 @@ footer {
     textarea {
         font-size: 14px; /* Adjust font size for better readability on smaller screens */
     }
+    footer {
+        position: absolute; /* Set relative positioning for the footer */
+        margin-top: 20px; /* Add margin to separate the footer from the container */
+    }
 }
