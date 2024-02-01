@@ -82,8 +82,13 @@ footer {
     textarea {
         font-size: 14px; /* Adjust font size for better readability on smaller screens */
     }
+    body {
+        flex-direction: column; /* Set flex-direction to column for smaller screens */
+        align-items: stretch; /* Stretch items to full width */
+    }
+
     footer {
-        position: absolute; /* Set relative positioning for the footer */
-        margin-top: 20px; /* Add margin to separate the footer from the container */
+        position: relative;
+        margin-top: 20px;
     }
 }
