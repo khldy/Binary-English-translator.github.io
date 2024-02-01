@@ -72,3 +72,14 @@ footer {
 #rights {
     color: #ccc;
 }
+
+/* Media Query for Smaller Screens (e.g., phones) */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    textarea {
+        font-size: 14px; /* Adjust font size for better readability on smaller screens */
+    }
+}
